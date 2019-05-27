@@ -1,0 +1,15 @@
+/* Remove Browser Presets */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* List Items under top links */
+.top-links {
+  color: rebeccapurple;
+  list-style-type: none;
+}
+
+.top-left {
+    
+}
