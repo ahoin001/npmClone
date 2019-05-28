@@ -4,12 +4,80 @@
   padding: 0;
 }
 
-/* List Items under top links */
-.top-links {
-  color: rebeccapurple;
-  list-style-type: none;
+/********************************************* 
+                
+                    NAVBAR 
+
+ *********************************************/
+
+ nav {
+   /* To see box model */
+  /* border: 2px solid blue;  */
+
+  background-color: crimson;
+
+  /* Make Bar Strecth across whole screen  */
+  width: 100%;
 }
 
+/* The "♥︎ Neophobe Plebeian Mumpsimus" title top left  */
 .top-left {
+    /* to see box */
+    /* border: 3px solid green; */
+
+    /* To allow another element on same line */
+    display: inline-block;
+
+    /* Space it takes on nav bar */
+    width: 50%;
+}
+
+.acronym {
+  color: white;
+}
+
+/* List Items under top links */
+.top-links {
+
+    /* Remove bulletins from links */
+    list-style-type: none;
+
+    /* Makes ul list in same line as acronym in nav */
+    display: inline-block;
+    
     
 }
+
+/* List Items (Think Box around each link) in nav */
+.top-links li {
+
+  /* Make List items Horizontal for horizontal nav */
+  display: inline-block;
+  
+  /* Move the list items right  */
+  position: relative;
+  left: 73px;
+
+  /* View Box Model */
+  /* border: 2px solid black; */
+}
+
+/* The Links In NavBar */
+.nav-bar-items {
+    /* Remove link underline */
+  text-decoration: none;
+
+  display: block;
+  padding: 15px 10px;
+
+  color: white;
+  /* border: 2px solid blue; */
+
+}
+
+
+/********************************************* 
+                
+                    NAVBAR 
+
+ *********************************************/
