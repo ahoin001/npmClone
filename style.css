@@ -10,53 +10,48 @@
 
  *********************************************/
 
- nav {
-   /* To see box model */
-  /* border: 2px solid blue;  */
+nav {
+  /* To see box model */
+  /* border: 2px solid blue; */
 
   background-color: crimson;
 
-  /* Make Bar Strecth across whole screen  */
+  /* Make Bar Strecth across whole screen  and specific height*/
   width: 100%;
+  height: 25px;
 }
 
 /* The "♥︎ Neophobe Plebeian Mumpsimus" title top left  */
 .top-left {
-    /* to see box */
-    /* border: 3px solid green; */
+  /* to see box */
+  /* border: 3px solid green; */
 
-    /* To allow another element on same line */
-    display: inline-block;
+  text-align: left;
 
-    /* Space it takes on nav bar */
-    width: 50%;
+  /* To move container to the left of nav bar */
+  float: left;
 }
 
 .acronym {
   color: white;
+  /* border: 3px solid purple; */
 }
 
 /* List Items under top links */
 .top-links {
+  /* Remove bulletins from links */
+  list-style-type: none;
 
-    /* Remove bulletins from links */
-    list-style-type: none;
-
-    /* Makes ul list in same line as acronym in nav */
-    display: inline-block;
-    
-    
+  /* Makes ul list in same line as acronym in nav */
+  float: right;
 }
 
 /* List Items (Think Box around each link) in nav */
 .top-links li {
-
   /* Make List items Horizontal for horizontal nav */
   display: inline-block;
-  
-  /* Move the list items right  */
-  position: relative;
-  left: 73px;
+
+  padding: 0 15px;
 
   /* View Box Model */
   /* border: 2px solid black; */
@@ -64,20 +59,95 @@
 
 /* The Links In NavBar */
 .nav-bar-items {
-    /* Remove link underline */
+  /* Remove link underline */
   text-decoration: none;
 
+  padding: 0 15px;
+
+  /* Make links feel like buttons */
   display: block;
-  padding: 15px 10px;
 
   color: white;
+
   /* border: 2px solid blue; */
-
 }
-
 
 /********************************************* 
                 
                     NAVBAR 
 
  *********************************************/
+
+/********************************************* 
+                
+                   HEADER
+
+ *********************************************/
+header {
+  width: 100%;
+
+  /* border: 4px solid blue; */
+}
+
+.header-container {
+  border: 2px solid green;
+
+  /* Allows container to grow as content is added to it! */
+  overflow: hidden;
+}
+
+.npm-logo {
+  /* Logo Dimensions */
+  height: 50px;
+  width: 120px;
+
+  /* Move to left of container */
+  float: left;
+}
+
+.search-bar {
+  /* Customize Search bar */
+  height: 35px;
+  width: 70%;
+
+  /* Move to left of container */
+  float: left;
+
+  /* Make space on sides */
+  margin: 0 20px;
+}
+
+/* The list in container floats left  */
+.header-container ul {
+  float: left;
+}
+
+/* Make list in container horizontal
+   "sign up or log in" and bear logo  are the list*/
+.header-container ul li {
+  list-style-type: none;
+  /* display: inline-block; */
+  /* float: left; */
+  padding: 10px;
+  margin: 0 10px 20px 10px;
+  background-color: aqua;
+  
+  
+}
+
+.header-container ul li a {
+  text-decoration: none;
+}
+
+
+
+.bear-logo {
+  /* Logo Dimensions */
+  height: 40px;
+  width: 50px;
+  float: right;
+
+  /* Attempt To move logo */
+  /* position:absolute;
+  right: 1px; */
+}
