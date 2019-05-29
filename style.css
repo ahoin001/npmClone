@@ -11,67 +11,41 @@
  *********************************************/
 
 nav {
-  /* To see box model */
-  /* border: 2px solid blue; */
+  background-color: #c12127;
 
-  background-color: crimson;
+  /* Colors text in nav white */
+  color: rgba(255, 255, 255, 0.8);
 
-  /* Make Bar Strecth across whole screen  and specific height*/
-  width: 100%;
-  height: 25px;
+  /* 15px of space top and below elements in navbar to
+     center them*/
+  padding: 10px 0;
 }
 
-/* The "♥︎ Neophobe Plebeian Mumpsimus" title top left  */
-.top-left {
-  /* to see box */
-  /* border: 3px solid green; */
+nav a {
+  /* colors link texts in nav white */
+  color: rgba(255, 255, 255, 0.8);
 
-  text-align: left;
-
-  /* To move container to the left of nav bar */
-  float: left;
+  /* Remove underline of links */
+  text-decoration: none;
 }
 
-.acronym {
-  color: white;
-  /* border: 3px solid purple; */
-}
-
-/* List Items under top links */
+/* List of links in nav */
 .top-links {
-  /* Remove bulletins from links */
-  list-style-type: none;
+  /* Make the list an inline element that we can 
+     have it on the same line as emojis line */
+  display: inline-block;
 
-  /* Makes ul list in same line as acronym in nav */
+  /* Float list to right of container */
   float: right;
 }
 
-/* List Items (Think Box around each link) in nav */
 .top-links li {
-  /* Make List items Horizontal for horizontal nav */
+  /* Make list items horizontal of each other */
   display: inline-block;
 
-  padding: 0 15px;
-
-  /* View Box Model */
-  /* border: 2px solid black; */
+  padding: 0 10px;
+  margin: 0 10px;
 }
-
-/* The Links In NavBar */
-.nav-bar-items {
-  /* Remove link underline */
-  text-decoration: none;
-
-  padding: 0 15px;
-
-  /* Make links feel like buttons */
-  display: block;
-
-  color: white;
-
-  /* border: 2px solid blue; */
-}
-
 /********************************************* 
                 
                     NAVBAR 
@@ -116,30 +90,6 @@ header {
   /* Make space on sides */
   margin: 0 20px;
 }
-
-/* The list in container floats left  */
-.header-container ul {
-  float: left;
-}
-
-/* Make list in container horizontal
-   "sign up or log in" and bear logo  are the list*/
-.header-container ul li {
-  list-style-type: none;
-  /* display: inline-block; */
-  /* float: left; */
-  padding: 10px;
-  margin: 0 10px 20px 10px;
-  background-color: aqua;
-  
-  
-}
-
-.header-container ul li a {
-  text-decoration: none;
-}
-
-
 
 .bear-logo {
   /* Logo Dimensions */
