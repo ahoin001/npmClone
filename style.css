@@ -59,11 +59,13 @@ nav a {
  *********************************************/
 header {
   background-color: rgb(32, 101, 136);
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
 }
 
 .search-and-sign-container {
   /* border: 3px solid green; */
+
+  padding: 15px 0 0 0;
 
   /* Why does float left for ul not work unless this is active? */
   /* Allows container to grow as content is added to it! */
@@ -86,7 +88,6 @@ header {
 
   background-color: rgb(31, 82, 111);
   border: none;
-
 
   /* Move to left of container */
   float: left;
@@ -129,14 +130,13 @@ header {
   /* float: left; */
 }
 
-
 /********************************************* 
                 
              Container in HEADER
 
  *********************************************/
 .header-div-container {
-  border: 5px solid black;
+  /* border: 5px solid black; */
 
   color: white;
 
@@ -145,27 +145,28 @@ header {
 
   /* center the div in the middle of parent container 
      (header) */
-     margin: 0 auto;
+  margin: 0 auto;
 
+  padding: 18px;
 
-     overflow: hidden;
+  overflow: hidden;
 }
 
 .header-div-container h1 {
- margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
- #bearimg{
- float: right;
+#bearimg {
+  float: right;
   height: 280px;
 }
 
-.header-div-container p{
+.header-div-container p {
   font-size: 30px;
- }
+}
 
 .button {
-  background-color: #4CAF50;
+  background-color: #4caf50;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -184,3 +185,98 @@ header {
                    HEADER
 
  *********************************************/
+
+/********************************************* 
+                
+                   Section 1
+
+ *********************************************/
+
+.section-1 {
+  background-color: rgb(39, 53, 71);
+  padding:90px 0; 
+}
+
+.section-1-container {
+  border: 3px solid purple;
+
+  
+  width: 80%;
+  
+  margin: 0 auto;
+  padding-top: 30px;
+  /* This allows container to grow with elements it contains */
+  overflow: auto;
+}
+
+.section-1-container img {
+  width: 580px;
+  float: left;
+}
+
+.section-1-information {
+  border: 2px solid green;
+  
+  display: inline-block;
+  float: left;
+  
+  color: white;
+
+  width: 40%;
+  margin-left: 60px;
+
+
+}
+
+.section-1-information h1{
+    font-size: 30px;
+    width: 60%;
+    margin: 30px 0;
+}
+
+.section-1-information ul{
+  margin: 0 0 0 48px;
+}
+
+.section-1-information ul li{
+  padding: 10px 0;
+}
+
+.button-orgs {
+  background-color: rgb(203, 56, 55);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 14px 50px;
+
+  float: left;
+  border-radius: 30px;
+
+  display: inline-block;
+}
+
+.the-div p {
+  
+  color: white;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.the-div p a {
+  
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.the-div {
+  border: 3px solid black;
+
+  /* Now button and about will be stacked due to width */
+  width: 270px;
+}
