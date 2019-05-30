@@ -280,24 +280,56 @@ header {
 
  *********************************************/
 .section-2 {
-  background-image: url("images/forklift.svg");
-
   border: 3px solid yellow;
+  height: 400px;
 
-  /* background-image: image("images/red-car.png"); */
-  background-size: cover;
+  background-image: url("images/collaboration.svg");
+  background-size: contain;
 
-  padding: 90px 0;
+  position: relative;
 }
 
+.container-for-whatnpm {
+  background-color: aliceblue;
+  width: 300px;
+
+  text-align: center;
+  line-height: 32px;
+
+  position: absolute;
+  top: 90px;
+  left: 70px;
+
+}
+
+.container-for-whatnpm h2{
+  font-size: 45px;
+  padding: 15px;
+
+}
+
+.container-for-whatnpm a{
+  margin-left: 80px;
+
+}
+
+/********************************************* 
+                
+                   Section 2
+
+ *********************************************/
+
+ /********************************************* 
+                
+                   Section 3
+
+ *********************************************/
 .section-3 {
   background-color: rgb(39, 53, 71);
 
   color: white;
 
-  border: 3px solid blue;
-
-  position: relative;
+  padding: 15px;
 }
 
 .building-blocks-container {
@@ -319,7 +351,7 @@ header {
 
   overflow: auto;
 
-  margin: 30px auto;
+  margin: 30px auto 0 auto;
   width: 60%;
 }
 
@@ -352,3 +384,9 @@ header {
   color: rgb(208, 74, 73);
   
 }
+
+ /********************************************* 
+                
+                   Section 3
+
+ *********************************************/
