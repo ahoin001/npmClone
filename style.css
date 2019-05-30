@@ -198,7 +198,7 @@ header {
 }
 
 .section-1-container {
-  border: 3px solid purple;
+  /* border: 3px solid purple; */
 
   width: 80%;
 
@@ -214,7 +214,7 @@ header {
 }
 
 .section-1-information {
-  border: 2px solid green;
+  /* border: 2px solid green; */
 
   display: inline-block;
   float: left;
@@ -280,7 +280,7 @@ header {
 
  *********************************************/
 .section-2 {
-  border: 3px solid yellow;
+  /* border: 3px solid yellow; */
   height: 400px;
 
   background-image: url("images/collaboration.svg");
